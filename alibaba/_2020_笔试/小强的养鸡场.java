@@ -12,13 +12,14 @@ import java.util.*;
  * 1<=k<=100000
  * 1<=a[i]<=100000
  *
+ * 解法
  * 1. 暴力解法，时间复杂度O(m * n/2)
  * 2. 写个最大堆，时间复杂度O(m * logn)
  */
 public class 小强的养鸡场 {
 
     public static void main(String[] args) {
-        //925
+        // 925
         System.out.println(chicken(new int[]{100, 200, 400}, 3, 100));
     }
 
